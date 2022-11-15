@@ -12,17 +12,24 @@
 	</head>
 
 	<body>
-		<header>
+		<div class="header">
+			<img src="lab5 img.png" alt="logo" />
 			<h1>World Database Lookup</h1>
-		</header>
-
+		  </div>
+		
+		<br> <br>
 		<main>
 			<div id="controls">
-				<label for="country">Country:</label>
 				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
+			</div>
+	
+			<div class="lookupButtons">
+				<button id="countryLookup">Lookup Country</button>
+				<button id="cityLookup">Lookup City</button>
 			</div>
 			
+			
+
 			<div id="result">
 				<!-- countries will appear here -->
 			</div>
